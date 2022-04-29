@@ -19,8 +19,8 @@
 # Default server configuration
 #
 server {
-  listen 80;
-  server_name 192.168.134.132;
+  listen 80 default;
+  server_name _;
 
   access_log /var/log/nginx/packages-error.log;
   error_log /var/log/nginx/packages-error.log;
