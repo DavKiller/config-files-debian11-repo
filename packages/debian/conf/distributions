@@ -1,0 +1,9 @@
+Origin: 192.168.134.128
+Label: 192.168.134.128
+Codename: testing
+Architectures: amd64
+Components: main
+Description: Example APT Repository For Romero Vargas
+SignWith: 1B746D0E239D2876
+DebOverride: override.testing
+DscOverride: override.testing
