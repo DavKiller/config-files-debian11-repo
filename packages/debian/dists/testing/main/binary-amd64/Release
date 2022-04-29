@@ -1,0 +1,5 @@
+Component: main
+Origin: 192.168.134.168
+Label: 192.168.134.168
+Architecture: amd64
+Description: Example APT Repository For Romero Vargas

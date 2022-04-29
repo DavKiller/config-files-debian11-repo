@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: 192.168.134.132
+Label: 192.168.134.132
+Codename: testing
+Date: Fri, 29 Apr 2022 08:50:34 UTC
+Architectures: amd64
+Components: main
+Description: Example APT Repository For Romero Vargas
+MD5Sum:
+ 9cd5aac49d3547952994fc020c5e4747 16847 main/binary-amd64/Packages
+ 695d3cf6b03443f4e71d5345675b7feb 6086 main/binary-amd64/Packages.gz
+ 98ddb39e13e6889305bd79253aefa612 137 main/binary-amd64/Release
+SHA1:
+ 136f0fe530f0abf50adb1c7c185d52b69b253ac1 16847 main/binary-amd64/Packages
+ 826def692a585905059bfd8b3900b703b49e852b 6086 main/binary-amd64/Packages.gz
+ f49ae7de51f85a4b64ebe5d02a6fb4ae3497b62b 137 main/binary-amd64/Release
+SHA256:
+ 5b9ffb4e7e4d32ff352d2e64781aa83890989f681f4253b78e103238394717b0 16847 main/binary-amd64/Packages
+ d9b13ee2e581889a4bbafe94c483cf6a62b94d45e5432e31caf619dfcf81baf4 6086 main/binary-amd64/Packages.gz
+ e6d96130b84500764a31035dd7ed2eb20315ce4f4b561d66e1740a7d0b7eef57 137 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEMvdMvzw2Ddg16BIVasmKOdWOb+4FAmJrptsACgkQasmKOdWO
+b+4eygv+M5i/2VQbiYa0xklAllm1/GVODjslEei2T8RVEtx2h0mkBGXJzUlyyFZJ
+yv6odQZSyTxbw3cKhDR1nIDFgyy3/Ll53pWnZHJUMfi/jVty8Iqn3Ha7JYonJjXU
+eH1QaCPqFOrNkvIoCJyBMChn5NcIHSAsq+USVyT6vak+BMUKSJLBq8Il47nkoYL0
+plOBMeEDkQKJoB7gt3/dAaJyR6J2Thuz3MJel38MpOK236L1S1xXB0xRzGj5IBDl
+0p6b2q1Ikh4+0N07WyVoUf+19/nEx/qrey5bCVfauNechblcpA/4VfUtC6ZQw5DH
+VrIUmv6AoU60Nc0ZvKL4nicMZd+vxxBsi/2CSq/vKmg7BBdxiXX2Z5DdtcSH4UdW
+4xhXlKliEDxsqP9H5qhEqGohKdoOwYP4fOnN3pD1yVI6DOjg67ffozczLo1rgBSq
+GirT+VXaRes7aWnbRJQOVlhVnfbP3anjeH3I5ntmu0y2GFSJKUYsScOsG6PjzuFJ
+KviG9q4q
+=3R2z
+-----END PGP SIGNATURE-----

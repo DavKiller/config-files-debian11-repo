@@ -1,0 +1,397 @@
+Package: libruby2.7
+Source: ruby2.7
+Version: 2.7.4-1+deb11u1
+Architecture: amd64
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 17487
+Depends: rake (>= 10.4.2), ruby-minitest (>= 5.4), ruby-net-telnet (>= 0.1.1), ruby-test-unit (>= 3.0.8~), ruby-xmlrpc (>= 0.3.0~), libc6 (>= 2.29), libcrypt1 (>= 1:4.1.0), libedit2 (>= 3.1-20130611-0), libffi7 (>= 3.3~20180313), libgdbm-compat4 (>= 1.16), libgdbm6 (>= 1.16), libgmp10, libssl1.1 (>= 1.1.1), libyaml-0-2, zlib1g (>= 1:1.2.2)
+Provides: ruby-benchmark (= 0.1.0), ruby-bigdecimal (= 2.0.0), ruby-cgi (= 0.1.0), ruby-csv (= 3.1.2), ruby-date (= 3.0.0), ruby-dbm (= 1.1.0), ruby-delegate (= 0.1.0), ruby-did-you-mean (= 1.4.0), ruby-etc (= 1.1.0), ruby-fcntl (= 1.0.0), ruby-fiddle (= 1.0.0), ruby-fileutils (= 1.4.1), ruby-forwardable (= 1.3.1), ruby-gdbm (= 2.1.0), ruby-getoptlong (= 0.1.0), ruby-io-console (= 0.5.6), ruby-ipaddr (= 1.2.2), ruby-irb (= 1.2.6), ruby-json (= 2.3.0), ruby-logger (= 1.4.2), ruby-matrix (= 0.2.0), ruby-mutex-m (= 0.1.0), ruby-net-pop (= 0.1.0), ruby-net-smtp (= 0.1.0), ruby-observer (= 0.1.0), ruby-open3 (= 0.1.0), ruby-openssl (= 2.1.2), ruby-ostruct (= 0.2.0), ruby-prime (= 0.1.1), ruby-pstore (= 0.1.0), ruby-psych (= 3.1.0), ruby-racc (= 1.4.16), ruby-rdoc (= 6.2.1.1), ruby-readline (= 0.0.2), ruby-readline-ext (= 0.1.0), ruby-reline (= 0.1.5), ruby-rexml (= 3.2.3.1), ruby-rss (= 0.2.8), ruby-sdbm (= 1.0.0), ruby-singleton (= 0.1.0), ruby-stringio (= 0.1.0), ruby-strscan (= 1.0.3), ruby-timeout (= 0.1.0), ruby-tracer (= 0.1.0), ruby-uri (= 0.10.0), ruby-webrick (= 1.6.1), ruby-yaml (= 0.1.0), ruby-zlib (= 1.1.0)
+Multi-Arch: same
+Homepage: https://www.ruby-lang.org/
+Priority: optional
+Section: libs
+Filename: pool/main/r/ruby2.7/libruby2.7_2.7.4-1+deb11u1_amd64.deb
+Size: 4202212
+SHA256: 2d5a451785d356de0bdb4d5efb0d09b7504f3e7df7a0c21f19cdd7f37fb9278a
+SHA1: d3f727b14db308d4ebbcfa1248f7e557cd38d83f
+MD5sum: ba3e5c97ed7f4647561be2cbfb1d9fe2
+Description: Libraries necessary to run Ruby 2.7
+ Ruby is the interpreted scripting language for quick and easy
+ object-oriented programming.  It has many features to process text
+ files and to do system management tasks (as in perl).  It is simple,
+ straight-forward, and extensible.
+ .
+ This package includes the 'libruby-2.7' library, necessary to run Ruby 2.7.
+ (API version 2.7.0)
+
+Package: lolcat
+Version: 100.0.1-3
+Architecture: all
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 44
+Depends: ruby | ruby-interpreter, ruby-paint (>= 2.1), ruby-optimist
+Homepage: https://github.com/busyloop/lolcat
+Priority: optional
+Section: games
+Filename: pool/main/l/lolcat/lolcat_100.0.1-3_all.deb
+Size: 7948
+SHA256: 28cf09021596015eb0e02eda14aec123cb462d0d0b76ddae2a8c492cbe15454d
+SHA1: 5cd92440facda80706ded97c7d5248681ab87ffc
+MD5sum: e4c7909c213c7cae88fdd8d60ebf61dd
+Description: colorful `cat`
+ lolcat concatenates files like the UNIX `cat` program, but colors it for the
+ lulz in a rainbow animation. Terminals with 256 colors and animations are
+ supported.
+Ruby-Versions: all
+
+Package: php
+Source: php-defaults (76)
+Version: 2:7.4+76
+Architecture: all
+Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Installed-Size: 13
+Depends: php7.4
+Priority: optional
+Section: php
+Filename: pool/main/p/php-defaults/php_7.4+76_all.deb
+Size: 6340
+SHA256: 10ca22712771dc343fb6600cbdbc88069069467fcc5c85782ee89abbc8c81f59
+SHA1: 23f324fa052e891ca6e72a2b4106a373d630e38a
+MD5sum: 33859926f35bdfdc784d9e7312d16a92
+Description: server-side, HTML-embedded scripting language (default)
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+ .
+ This package is a dependency package, which depends on latest stable
+ PHP version (currently 7.4).
+
+Package: rake
+Version: 13.0.3-1
+Architecture: all
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 280
+Depends: ruby:any | ruby-interpreter
+Recommends: zip
+Multi-Arch: foreign
+Homepage: https://github.com/ruby/rake
+Priority: optional
+Section: ruby
+Filename: pool/main/r/rake/rake_13.0.3-1_all.deb
+Size: 84716
+SHA256: c3cae0f213004ab8090ed9a71b30c13cf215920095fa92018569e95b28448520
+SHA1: ca9be13a1c4e1fb26d7224536f29ccfa8d6178a3
+MD5sum: 81cf3475e9a8f88873ad50b2bc556818
+Description: ruby make-like utility
+ Rake is a simple ruby build program with capabilities similar to make.
+ .
+ Rake has the following features:
+   * Rakefiles (rakes version of Makefiles) are completely defined in
+     standard Ruby syntax. No XML files to edit. No quirky Makefile
+     syntax to worry about (is that a tab or a space?)
+   * Users can specify tasks with prerequisites.
+   * Rake supports rule patterns to sythesize implicit tasks.
+   * Rake is lightweight. It can be distributed with other
+     projects as a single file. Projects that depend upon
+     rake do not require that rake be installed on target
+     systems.
+Ruby-Versions: all
+
+Package: ruby
+Source: ruby-defaults
+Version: 1:2.7+2
+Architecture: amd64
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 35
+Depends: ruby2.7, ruby-rubygems
+Suggests: ri, ruby-dev
+Conflicts: ruby-activesupport-2.3, ruby-activesupport-3.2
+Breaks: apt-listbugs (<< 0.1.6), rbenv (<= 0.4.0-1), ruby-bootsnap (<< 1.4.6-1), ruby-debian (<< 0.3.8+b3), ruby-switch (<= 0.1.0)
+Replaces: irb, rdoc, rubygems
+Provides: irb, rdoc, rubygems
+Multi-Arch: allowed
+Homepage: https://www.ruby-lang.org/
+Priority: optional
+Section: ruby
+Filename: pool/main/r/ruby-defaults/ruby_2.7+2_amd64.deb
+Size: 11708
+SHA256: bfef89ab7b12d4048f4692764f0a39c2c855abe01689733d31bd244aed77dbb1
+SHA1: c3b0086df9d8eb82535ce79217bfe7c988e5f84e
+MD5sum: 96930f034fe84f91cee71d0b46cbee47
+Description: Interpreter of object-oriented scripting language Ruby (default version)
+ Ruby is the interpreted scripting language for quick and easy
+ object-oriented programming.  It has many features to process text
+ files and to do system management tasks (as in perl).  It is simple,
+ straight-forward, and extensible.
+ .
+ This package is a dependency package, which depends on Debian's default Ruby
+ version (currently v2.7).
+
+Package: ruby-minitest
+Version: 5.13.0-1
+Architecture: all
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 154
+Suggests: ruby-test-unit
+Multi-Arch: foreign
+Homepage: https://github.com/seattlerb/minitest
+Priority: optional
+Section: ruby
+Filename: pool/main/r/ruby-minitest/ruby-minitest_5.13.0-1_all.deb
+Size: 57252
+SHA256: beeaebe2840ee4279fab78b244453387c647b67ce4e44ceb6f17ea9195b06896
+SHA1: 461aac848475975efe3adb98ee47044cc52d83a8
+MD5sum: 1c87cf35f49419972f67510f5dc58a9d
+Description: Ruby test tools supporting TDD, BDD, mocking, and benchmarking
+ minitest provides a complete suite of testing facilities supporting
+ TDD, BDD, mocking, and benchmarking.
+ .
+ minitest/unit is a small and incredibly fast unit testing framework.
+ It provides a rich set of assertions to make your tests clean and
+ readable.
+ .
+ minitest/spec is a functionally complete spec engine. It hooks onto
+ minitest/unit and seamlessly bridges test assertions over to spec
+ expectations.
+ .
+ minitest/benchmark is an awesome way to assert the performance of your
+ algorithms in a repeatable manner. Now you can assert that your newb
+ co-worker doesn't replace your linear algorithm with an exponential
+ one!
+ .
+ minitest/mock by Steven Baker, is a beautifully tiny mock object
+ framework.
+ .
+ minitest/pride shows pride in testing and adds coloring to your test
+ output.
+ .
+ minitest/unit is meant to have a clean implementation for language
+ implementors that need a minimal set of methods to bootstrap a working
+ test suite. For example, there is no magic involved for test-case
+ discovery.
+Ruby-Versions: all
+
+Package: ruby-net-telnet
+Version: 0.1.1-2
+Architecture: all
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 57
+Multi-Arch: foreign
+Homepage: https://github.com/ruby/net-telnet
+Priority: optional
+Section: ruby
+Filename: pool/main/r/ruby-net-telnet/ruby-net-telnet_0.1.1-2_all.deb
+Size: 12522
+SHA256: a9f5123e22f32ca9cfef25d7087d347664701e2a80ab335c68e8fe6e73d956a9
+SHA1: 0abedcb2658d9fa4a9bbbcdf16f960876da0097e
+MD5sum: 6bd4acc12a7fd9ae7290a669644ac4ad
+Description: telnet client library
+ This package provides a telnet client library to use in Ruby programs. It used
+ to be part of the Ruby standard library before Ruby 2.3, and was extracted to
+ a standalone package.
+Ruby-Versions: all
+
+Package: ruby-optimist
+Version: 3.0.0-2
+Architecture: all
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 56
+Homepage: http://manageiq.github.io/optimist/
+Priority: optional
+Section: ruby
+Filename: pool/main/r/ruby-optimist/ruby-optimist_3.0.0-2_all.deb
+Size: 16532
+SHA256: db0d79653f85111cdd065ce0ee54fcf86d1e57a5d90722afd0ae376f87f47227
+SHA1: 09bbe6337d24d5a5c99d8eaa593a4bdbf7c2251d
+MD5sum: 03832fee1c95e5e3d03241d570d4481b
+Description: Commandline parser for Ruby that just gets out of your way
+ Optimist is a commandline option parser for Ruby that just
+ gets out of your way. One line of code per option is all you need to write.
+ .
+ For that, you get a nice automatically-generated help page, robust option
+ parsing, command subcompletion, and sensible defaults for everything you
+ don't specify.
+Ruby-Versions: all
+
+Package: ruby-paint
+Version: 2.2.0-1
+Architecture: all
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 48
+Homepage: https://github.com/janlelis/paint
+Priority: optional
+Section: ruby
+Filename: pool/main/r/ruby-paint/ruby-paint_2.2.0-1_all.deb
+Size: 17548
+SHA256: 6fc13a5a7bd8b1b83c1b41052ba6fc6e2b3c214f1f19a2a0979933b94f76e1cf
+SHA1: f62344eff17e29d8cde11a81d36916be78a2c544
+MD5sum: 6bc194287f00c3185c190f5019721a43
+Description: terminal paint library with 256 color and effect support
+ The paint library for ruby provides a single method, `Paint.[]`, that produces
+ colored output on terminals. It comes with support for 256 color terminals,
+ ANSI effects, and allows defining custom shortcuts.
+Ruby-Versions: all
+
+Package: ruby-power-assert
+Version: 1.1.7-2
+Architecture: all
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 50
+Multi-Arch: foreign
+Homepage: https://github.com/k-tsj/power_assert
+Priority: optional
+Section: ruby
+Filename: pool/main/r/ruby-power-assert/ruby-power-assert_1.1.7-2_all.deb
+Size: 11496
+SHA256: 26658036ed5512d467d45c28957f4fbdf12b96b526628e3f00bf3a85198c7baa
+SHA1: 0f9346cbe69de02b121474d7d9f2446aa2cb8429
+MD5sum: ac092203409f4eb8646fa8852a460dbf
+Description: library showing values of variables and method calls in an expression
+ Power Assert shows each value of variables and method calls in the
+ expression. It is useful for testing, providing which value wasn't
+ correct when the condition is not satisfied.
+Ruby-Versions: all
+
+Package: ruby-rubygems
+Source: rubygems
+Version: 3.2.5-2
+Architecture: all
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 1130
+Depends: ruby:any | ruby-interpreter
+Breaks: ruby (<< 1:2.7+2~)
+Replaces: ruby (<< 1:2.7+2~)
+Multi-Arch: foreign
+Homepage: https://rubygems.org
+Priority: optional
+Section: ruby
+Filename: pool/main/r/rubygems/ruby-rubygems_3.2.5-2_all.deb
+Size: 280840
+SHA256: 2f0cd98257fb60f4cea9fee0361b01278a7e97f42e078913739bbf0e6b7b0023
+SHA1: 9084f4e099d88429374abf7267345c60bdad662d
+MD5sum: 342e6e2740aa11987e5a7964e07ef68f
+Description: Package management framework for Ruby
+ A package (also known as a library) contains a set of functionality that can
+ be invoked by a Ruby program, such as reading and parsing an XML file. These
+ packages are called 'gems' and RubyGems is a tool to install, create, manage
+ and load these packages in your Ruby environment. RubyGems is also a client for
+ RubyGems.org, a public repository of Gems that allows you to publish a Gem that
+ can be shared and used by other developers.
+Ruby-Versions: all
+
+Package: ruby-test-unit
+Version: 3.3.9-1
+Architecture: all
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 448
+Depends: ruby-power-assert
+Multi-Arch: foreign
+Homepage: https://test-unit.github.io/
+Priority: optional
+Section: ruby
+Filename: pool/main/r/ruby-test-unit/ruby-test-unit_3.3.9-1_all.deb
+Size: 86096
+SHA256: 65a4e35b7eb4348094301db9b77b3be368ba65a95e14ef127e4394831e73293d
+SHA1: 177b611be5129ab3048a0115818693668b552863
+MD5sum: d5f0930e4d3003a95751ba316795cb4e
+Description: unit testing framework for Ruby
+ Test::Unit (test-unit) is a unit testing framework for Ruby, based on xUnit
+ principles. It allows writing tests, checking results and automated testing in
+ Ruby.
+ .
+ Note that this version of Test::Unit will override the one possibly shipped
+ with the Ruby interpreter.
+Ruby-Versions: all
+
+Package: ruby-trollop
+Version: 2.0-2.1
+Architecture: all
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 53
+Depends: ruby | ruby-interpreter
+Provides: libtrollop-ruby
+Homepage: http://gitorious.org/trollop/mainline
+Priority: extra
+Section: ruby
+Filename: pool/main/r/ruby-trollop/ruby-trollop_2.0-2.1_all.deb
+Size: 16964
+SHA256: f5ebd5e14d4b373a51e1a515efa5d2da27f561ba76e567bdddf3aa123e690e63
+SHA1: 7a631ece222be40d8e06bdf93d4765982939770c
+MD5sum: 0ea6a06a229dcafabcc03d83fbe0c131
+Description: command-line argument processing library
+ Trollop is YAFCLAP --- yet another fine commandline argument processor
+ for Ruby. Trollop is designed to provide the maximal amount of GNU-style
+ argument processing in the minimum number of lines of code (for you, the
+ programmer).
+Ruby-Versions: all
+
+Package: ruby-xmlrpc
+Version: 0.3.0-2
+Architecture: all
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 104
+Multi-Arch: foreign
+Homepage: https://github.com/ruby/xmlrpc
+Priority: optional
+Section: ruby
+Filename: pool/main/r/ruby-xmlrpc/ruby-xmlrpc_0.3.0-2_all.deb
+Size: 23712
+SHA256: 09606c91eb7be0bbd5e66a4a9e7fc473726fd699b010551e084f89c9c544a428
+SHA1: 47834f521850a5022155b9bb3896c41536cdbbdc
+MD5sum: ed35c72e949a16bf014b9b780c6e9b38
+Description: XMLRPC library for Ruby
+ XMLRPC is a lightweight protocol that enables remote procedure calls over
+ HTTP.  It is defined at http://www.xmlrpc.com.
+ .
+ This package enables you to create a server that implements remote procedures
+ and a client that calls them.  Very little code is required to achieve either
+ of these.
+Ruby-Versions: all
+
+Package: ruby2.7
+Version: 2.7.4-1+deb11u1
+Architecture: amd64
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 822
+Depends: rubygems-integration (>= 1.17.1~), libc6 (>= 2.4), libruby2.7 (>= 2.7.0~preview1)
+Recommends: fonts-lato, libjs-jquery
+Multi-Arch: allowed
+Homepage: https://www.ruby-lang.org/
+Priority: optional
+Section: ruby
+Filename: pool/main/r/ruby2.7/ruby2.7_2.7.4-1+deb11u1_amd64.deb
+Size: 747140
+SHA256: 35c2d5bae868cc22fa785f0f09bf3f69731fabab26d607721eee0e07f64e15ba
+SHA1: c6373732c013867e25f1e8bb4728280ecadcaa1d
+MD5sum: 756424eec34bb188377293381d96013f
+Description: Interpreter of object-oriented scripting language Ruby
+ Ruby is the interpreted scripting language for quick and easy
+ object-oriented programming.  It has many features to process text
+ files and to do system management tasks (as in perl).  It is simple,
+ straight-forward, and extensible.
+ .
+ In the name of this package, `2.7' indicates the Ruby library compatibility
+ version. This package currently provides the `2.7.x' branch of Ruby.
+
+Package: rubygems-integration
+Version: 1.18
+Architecture: all
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 26
+Depends: ca-certificates
+Suggests: bundler
+Breaks: ruby2.5
+Multi-Arch: foreign
+Priority: optional
+Section: ruby
+Filename: pool/main/r/rubygems-integration/rubygems-integration_1.18_all.deb
+Size: 6704
+SHA256: 8a0f590154c7d2239a84434093096c3ac60ad88fb2b4fbd89a67c2fd20ed7328
+SHA1: 749f4b1b2186791f8257fed253dad44128944b6e
+MD5sum: b93a7da97cab0f6aeb0d5ba9e19bce16
+Description: integration of Debian Ruby packages with Rubygems
+ rubygems-integration makes Debian Ruby packages recognizable by Rubygems.
+ Debian Ruby packages may be used to satisfy Rubygems dependencies both with
+ plain Rubygems and with Bundler. This also allows one to use Debian Ruby
+ packages to satisfy dependencies in Rails 3 applications.
+

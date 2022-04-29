@@ -1,5 +1,5 @@
-Origin: 192.168.134.128
-Label: 192.168.134.128
+Origin: 192.168.134.132
+Label: 192.168.134.132
 Codename: testing
 Architectures: amd64
 Components: main
