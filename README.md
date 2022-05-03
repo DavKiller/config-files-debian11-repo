@@ -38,3 +38,8 @@ Now we make a folder to save the ```*.deb``` where you want.
 mkdir /home/user/packages
 ```
 ## Under costruction
+
+
+---
+made with ❤️ by [DavKiller](https://github.com/DavKiller)
+Integrated Proyect for ASIR
