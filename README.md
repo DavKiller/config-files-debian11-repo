@@ -41,5 +41,6 @@ mkdir /home/user/packages
 
 
 ---
-made with ❤️ by [DavKiller](https://github.com/DavKiller)
-Integrated Proyect for ASIR
+made with ❤️ by [DavKiller](https://github.com/DavKiller). 
+
+Integrated Proyect for ASIR.
