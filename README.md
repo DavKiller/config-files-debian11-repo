@@ -53,26 +53,44 @@ Now we do in the same folder a file called ```options``` you can see [here](http
 To finish in ```/var/packages/debian/conf``` you need to make a empty file called ```override.testing```  The name will depend on the configuration parameter of the ```distributions``` file
 
 Now we need to put a EXPORTED PUBLIC KEY in the base folder of the web server, because we need it to get it as a client.
-```gpg --armor --output /var/packages/debian/192.168.134.132.gpg.key --export 1B746D0E239D2876```
+```bash
+gpg --armor --output /var/packages/debian/192.168.134.132.gpg.key --export 1B746D0E239D2876
+```
 
 ## Add packages to the repository
 
 To add packages to the repository we need to be folder of what we have done before.
-```cd /var/packages/debian/```
+```bash
+cd /var/packages/debian/
+```
 From this folder we will use the following command to add the packages that we have stored.
-```reprepro includedeb testing /var/www/repo/*.deb```
+```bash
+reprepro includedeb testing /var/www/repo/*.deb
+```
 This command adds to the repository whose codename is ```testing``` all the .deb files in the specified folder.
 When using the command, it will ask us for the password of the certificate that we have created and used for the repository.
 
 ## Using the repository as a client.
 
 First of all we need to add a line in the ```sources.list``` like this:
-```deb http://192.168.134.132 testing main```
-Then we need to add the public key to the machine, so we download it and then we add it:
-```wget http://192.168.134.132/192.168.134.132.gpg.key```
-```apt-key add 192.168.134.132.gpg.key```
+
+```bash
+deb http://192.168.134.132 testing main
+```
+Then we need to add the public key to the machine, so we download it and then we add it
+```bash
+wget http://192.168.134.132/192.168.134.132.gpg.key
+```
+
+```bash
+apt-key add 192.168.134.132.gpg.key
+```
+
 And the final step, lets do a update and now we can use the repository we have created.
-```apt update```
+
+```bash
+apt update
+```
 
 ---
 made with ❤️ by [DavKiller](https://github.com/DavKiller). 
