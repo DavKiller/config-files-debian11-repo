@@ -3,6 +3,13 @@
 This is a collection of configuration files to make a personal Debian 11 repository, it can be used to manage the packages that can be installed and to save bandwidth.
 This way of creating a Debian repository allows you great flexibility, but forces you to download all the packages you need since you are not cloning the main Debian repository, you are creating one from scratch.
 
+This project is being done by using the following skills:
+
+![image](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white) ![image](https://img.shields.io/badge/Linux-E34F26?style=for-the-badge&logo=linux&logoColor=black) ![image](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![image](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white) ![image](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white)
+
+
+
 ## Installations
 We make a update to be sure to use the last version of the packages to start installing things.
 ```bash
@@ -91,6 +98,7 @@ And the final step, lets do a update and now we can use the repository we have c
 ```bash
 apt update
 ```
+## Script to download the packages
 
 ---
 made with ❤️ by [DavKiller](https://github.com/DavKiller). 
