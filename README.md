@@ -98,7 +98,7 @@ reprepro includedeb testing /var/www/repo/*.deb
 This command adds to the repository whose codename is `testing` all the .deb files in the specified folder.
 When using the command, it will ask us for the password of the certificate that we have created and used for the repository.
 
-## Script to download the packages and add it to the local repository
+## Script to download the packages and add it to the local repository [![Codacy Security Scan](https://github.com/DavKiller/config-files-debian11-repo/actions/workflows/codacy.yml/badge.svg)](https://github.com/DavKiller/config-files-debian11-repo/actions/workflows/codacy.yml)
 
 You can use this script to download the packages from the Debian repository.
 
